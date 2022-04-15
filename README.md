@@ -1,9 +1,13 @@
-Project title - Topic Modeling on News Articles
+# Project title - 
 
-Problem statement – 
-              Identify major Topics/themes across a collection of BBC news articles using different topic modeling techniques.
+Topic Modeling on News Articles
 
-Data Description – 
+# Problem statement – 
+
+Identify major Topics/themes across a collection of BBC news articles using different topic modeling techniques.
+
+# Data Description – 
+
 •	Dataset has total 2225 rows and 2 columns.
 
 •	In that articles are given in news column and article types are given in type column.
@@ -13,7 +17,7 @@ Data Description –
 •	There is no null value in dataset.
 
 
-Data Analysis –
+# Data Analysis –
 
 •	There are five types of news in our dataset which are business, entertainment, politics, sport and tech. 
 
@@ -23,7 +27,7 @@ Data Analysis –
 
 • Tech category contains lowest count is 347.
 
-Data Processing-
+# Data Processing-
 
 •	Removing HTML tags and url.
 
@@ -35,7 +39,7 @@ Data Processing-
 
 •	Applying Lemmatization.
 
-Models Used – 
+# Models Used – 
 
 •	Latent Dirichlet  Allocation (Gensim) 
 
@@ -45,7 +49,7 @@ Models Used –
 
 •	Latent Semantic Analysis (LSA)
 
-Conclusion –
+# Conclusion –
 
 •	LDA (Sklearn) with TF-IDF vectorizer along with NMF 
 Were best to identify the 5 given clusters.
